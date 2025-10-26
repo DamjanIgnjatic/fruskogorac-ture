@@ -1,0 +1,9 @@
+@layer base {
+  body {
+    @apply leading-0 font-normal bg-black overflow-hidden;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
