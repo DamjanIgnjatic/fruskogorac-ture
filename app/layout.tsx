@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Header from "@/src/components/header/Header";
 import "../src/style/globals.css";
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700", "900"],
-  subsets: ["latin"],
-});
+// const poppins = Poppins({
+//   variable: "--font-poppins",
+//   weight: ["400", "500", "600", "700", "900"],
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Fruškogorac - Hiking i Avanture",
@@ -62,7 +62,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className={`${poppins.variable}`}>
+      <body>
         <Header />
         <main>{children}</main>
       </body>

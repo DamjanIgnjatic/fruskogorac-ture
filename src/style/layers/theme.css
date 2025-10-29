@@ -1,15 +1,21 @@
 @theme {
+  --font-cabinet: "CabinetGrotesk";
+
   /* colors */
   --color-dark-green: #06516e;
   --color-dark-blue: #11327b;
-  --color-primay-cyan: #16f1ff;
+  --color-primary-cyan: #16f1ff;
   --color-primary-green: #2aef84;
   --color-grey: #a4aac1;
   --color-black: #020e20;
   --color-black-opacity: rgba(0, 0, 0, 0.4);
+  --color-black-opacity-light: rgba(0, 0, 0, 0.2);
   --color-white-opacity: rgba(255, 255, 255, 0.6);
   --color-border-opacity: rgba(255, 255, 255, 0.5);
   --color-bg-gradinet: linear-gradient(135deg, #020e20 0%, #000000 100%);
+
+  /* bg */
+  --bg-hero: "url(/images/mountain.png)";
 
   /* headings */
   --text-xs: 12px;
@@ -18,22 +24,33 @@
   --text-2sm: 18px;
   --text-s: 20px;
   --text-m: 24px;
-  --text-lg: 28px;
-  --text-xl: 36px;
-  --text-2xl: 48px;
-  --text-3xl: 56px;
+  --text-lg: 32px;
+  --text-xl: 40px;
+  --text-2xl: 56px;
+  --text-3xl: 72px;
+  --text-4xl: 156px;
+
+  /* 156/100 = 0.64
+  24/32 = 1.33
+  40/56 = 1.4
+  56/64 = 1.43
+  72/84 = 1.667
+  32/auto
+  24/auto = 1.33
+  20/28 = 1.4
+  18/32 1.77 */
 
   /* line height */
   --leading-0: 1;
-  --leading-1: 1.143;
-  --leading-2: 1.285;
-  --leading-3: 1.33;
-  --leading-4: 1.428;
-  --leading-5: 1.5;
-  --leading-6: 1.6;
-  --leading-7: 1.75;
+  --leading-1: 0.64102564102;
+  --leading-2: 1.33;
+  --leading-3: 1.4;
+  --leading-4: 1.43;
+  --leading-5: 1.667;
+  --leading-6: 1.77;
 
   /* breakpoints */
+  --breakpoint-xs: 420px;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-d: 1024px;

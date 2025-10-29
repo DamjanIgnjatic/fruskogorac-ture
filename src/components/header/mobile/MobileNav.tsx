@@ -25,7 +25,11 @@ export const MobileNav = ({ isOpen, handleToggle }: MobileNavProps) => {
         >
           {dummyHeaderData.map((item) => (
             <motion.li key={item.menuItem} variants={childVariants}>
-              <Link href={item.url} onClick={() => handleToggle(false)}>
+              <Link
+                href={item.url}
+                className="subheading-m"
+                onClick={() => handleToggle(false)}
+              >
                 {item.menuItem}
               </Link>
             </motion.li>

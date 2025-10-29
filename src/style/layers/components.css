@@ -1,5 +1,5 @@
 @layer components {
   .custom-container {
-    @apply max-w-[1613px] w-full mx-auto px-5;
+    @apply max-w-[1630px] w-full mx-auto px-5;
   }
 }
