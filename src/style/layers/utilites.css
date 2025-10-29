@@ -1,0 +1,55 @@
+/* custom utilites */
+
+@utility heading-l {
+  /* 156/100 */
+  font-size: var(--text-4xl);
+  line-height: var(--leading-1);
+}
+
+@utility heading-m {
+  /* 72/84 */
+  font-size: var(--text-3xl);
+  line-height: var(--leading-5);
+}
+
+@utility heading-s {
+  /* 56/64 */
+  font-size: var(--text-2xl);
+  line-height: var(--leading-4);
+}
+
+@utility heading-xs {
+  /* 40/56 */
+  font-size: var(--text-xl);
+  line-height: var(--leading-3);
+}
+
+@utility subheading-l {
+  /* 32/normal */
+  font-size: var(--text-lg);
+  line-height: normal;
+}
+
+@utility subheading-m {
+  /* 24/32 */
+  font-size: var(--text-m);
+  line-height: var(--leading-2);
+}
+
+@utility subheading-s {
+  /* 20/28 */
+  font-size: var(--text-s);
+  line-height: var(--leading-3);
+}
+
+@utility description-s {
+  /* 24/normal */
+  font-size: var(--text-m);
+  line-height: normal;
+}
+
+@utility description-xs {
+  /* 18/32 */
+  font-size: var(--text-2sm);
+  line-height: var(--leading-6);
+}

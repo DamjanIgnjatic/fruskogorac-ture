@@ -1,9 +1,50 @@
 @layer base {
   body {
-    @apply leading-0 font-normal bg-black overflow-hidden;
+    @apply text-2sm text-white leading-0 font-normal bg-black overflow-x-hidden font-cabinet;
   }
 
   button {
     @apply cursor-pointer;
   }
 }
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-weight: 400;
+  src: url("/fonts/CabinetGrotesk-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-weight: 500;
+  src: url("/fonts/CabinetGrotesk-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-weight: 700;
+  src: url("/fonts/CabinetGrotesk-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-weight: 800;
+  src: url("/fonts/CabinetGrotesk-Extrabold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  font-weight: 900;
+  src: url("/fonts/CabinetGrotesk-Black.woff2") format("woff2");
+}
+
+/* .home {
+  background-image: url("/images/website.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+} */

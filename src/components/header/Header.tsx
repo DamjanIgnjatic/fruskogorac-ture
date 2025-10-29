@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Logo from "../general/logo/Logo";
 import { HamburgerManu } from "./mobile/HamburgerMenu";
 import { motion, MotionConfig } from "motion/react";
@@ -16,7 +16,7 @@ export default function Header() {
       transition={{ duration: 0.5, ease: "easeInOut" }}
       reducedMotion="user"
     >
-      <motion.header className="relative z-10 py-5 d:py-0 border-b border-border-opacity">
+      <motion.header className="relative flex items-center h-28 z-1 border-b border-border-opacity">
         <div className="custom-container">
           <motion.div
             className="flex justify-between items-center relative"
