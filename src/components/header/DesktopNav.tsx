@@ -7,9 +7,6 @@ import { motion } from "motion/react";
 
 export const DesktopNav = () => {
   const pathname = usePathname();
-
-  console.log(pathname);
-
   return (
     <>
       <ul className="hidden d:flex d:gap-[52px]">
