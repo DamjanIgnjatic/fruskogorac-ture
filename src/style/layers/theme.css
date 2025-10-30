@@ -11,6 +11,8 @@
   --color-black-opacity: rgba(0, 0, 0, 0.4);
   --color-black-opacity-light: rgba(0, 0, 0, 0.2);
   --color-white-opacity: rgba(255, 255, 255, 0.6);
+  --color-white-opacity-secondary: rgba(255, 255, 255, 0.15);
+  --color-white-opacity-tertiary: rgba(255, 255, 255, 0.8);
   --color-border-opacity: rgba(255, 255, 255, 0.5);
   --color-bg-gradinet: linear-gradient(135deg, #020e20 0%, #000000 100%);
 
@@ -52,7 +54,7 @@
   /* breakpoints */
   --breakpoint-xs: 420px;
   --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
+  --breakpoint-md: 991px;
   --breakpoint-d: 1024px;
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1440px;
